@@ -1,0 +1,35 @@
+.image-box {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Push image to right */
+    padding-top: 40px; 
+    gap:20px
+}
+
+.round-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative; 
+     margin-left: -50px; 
+     top: 20 px;
+
+}
+.text-content h1 {
+    
+  margin-left: -90px;  
+}
+
+.text-content p{
+    margin-top:8px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap:100px
+}
+.contact-text {
+ margin-left:20px;
+}
